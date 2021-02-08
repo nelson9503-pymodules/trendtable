@@ -35,7 +35,7 @@ def cal_trend_serious(data: list, interval: int) -> dict:
     """
     trend = {}
     for i in range(interval, len(data)+1, interval):
-        data_slice = data[:i+1]
+        data_slice = data[-i:]
         x = cal_trend_val(data_slice)
         trend[i] = x
     return trend
