@@ -1,5 +1,9 @@
-# trendtable - Methods
+# trendtable
 
-**func |** `calTrendVal` `(` `data`: *list* `)` `->` `trendVal`: *float*
+Calculate Trend Table for a serious data.
 
-**func |** `calTrendSerious` `(` `data`: *list*, `interval`: *int* `)` `->` `trendDict`: *dict*
+## Methods Discovery
+
+**func |** calTrendVal ( data: `list` ) **->** trend_val: `float`
+
+**func |** calTrendSerious ( data: `list`, interval: `int` ) **->** trendDict: `dict`

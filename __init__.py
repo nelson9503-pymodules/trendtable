@@ -1,4 +1,4 @@
 from .trend import (
-    calTrendVal,
-    calTrendSerious
+    cal_trend_serious,
+    cal_trend_val
 )
