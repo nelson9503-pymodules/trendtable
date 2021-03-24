@@ -4,6 +4,6 @@ Calculate Trend Table for a serious data.
 
 ## Methods Discovery
 
-**func |** calTrendVal ( data: `list` ) **->** trend_val: `float`
+**func |** cal_trend_val ( data: `list` ) **->** trend_val: `float`
 
-**func |** calTrendSerious ( data: `list`, interval: `int` ) **->** trendDict: `dict`
+**func |** cal_trend_series ( data: `list`, interval: `int` ) **->** trendDict: `dict`

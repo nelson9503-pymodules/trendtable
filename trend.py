@@ -15,9 +15,9 @@ def cal_trend_val(data: list) -> float:
     return round(v, 4)
 
 
-def cal_trend_serious(data: list, interval: int) -> dict:
+def cal_trend_series(data: list, interval: int) -> dict:
     """
-    Calculate a serious of trend values for the data.
+    Calculate a series of trend values for the data.
 
     example:
 
